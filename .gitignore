@@ -1,0 +1,94 @@
+# --- OS / IDE ---
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.vscode/
+.idea/
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+.venv/
+venv/
+.env
+.env.* 
+*.egg-info/
+pip-wheel-metadata/
+
+# --- Notebooks ---
+.ipynb_checkpoints/
+# (uncomment if you don’t want large HTML exports)
+# *.html
+
+# --- Data files (block typical big ones) ---
+# Tabular
+*.csv
+*.tsv
+*.xlsx
+*.xls
+*.parquet
+*.feather
+*.arrow
+*.orc
+
+# Text/binary dumps
+*.json
+*.ndjson
+*.xml
+*.txt
+
+# Compressed archives
+*.zip
+*.gz
+*.bz2
+*.xz
+*.7z
+*.tar
+*.tar.gz
+*.rar
+
+# Documents
+*.pdf
+*.doc
+*.docx
+*.ppt
+*.pptx
+
+# Geospatial (common heavy formats)
+*.gpkg
+*.geojson
+*.topojson
+*.shp
+*.dbf
+*.shx
+*.prj
+*.cpg
+*.qgz
+*.kml
+*.kmz
+*.tif
+*.tiff
+
+# Images & media (optional – comment out if you want to keep figures)
+# *.png
+# *.jpg
+# *.jpeg
+# *.svg
+# *.mp4
+# *.mov
+
+# --- Folders typically holding data ---
+data/
+datasets/
+input/
+inputs/
+raw/
+raw_data/
+external/
+outputs/
+export/
+TPG_LIGNES-SHP/
