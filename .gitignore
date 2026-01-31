@@ -30,7 +30,7 @@ pip-wheel-metadata/
 *.tsv
 *.xlsx
 *.xls
-*.parquet
+#*.parquet
 *.feather
 *.arrow
 *.orc
@@ -39,7 +39,6 @@ pip-wheel-metadata/
 *.json
 *.ndjson
 *.xml
-*.txt
 
 # Compressed archives
 *.zip
@@ -50,13 +49,6 @@ pip-wheel-metadata/
 *.tar
 *.tar.gz
 *.rar
-
-# Documents
-*.pdf
-*.doc
-*.docx
-*.ppt
-*.pptx
 
 # Geospatial (common heavy formats)
 *.gpkg
@@ -82,6 +74,7 @@ pip-wheel-metadata/
 # *.mov
 
 # --- Folders typically holding data ---
+models/
 data/
 datasets/
 input/
