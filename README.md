@@ -1,4 +1,4 @@
-# TPG — Bus Segment Travel Time Modeling & Dashboard
+# Data-driven Diagnostics of Commercial Speed in Public Transit Networks
 
 This repository contains notebooks and a small Streamlit app for analyzing and modeling TPG (Geneva) bus segment travel time, including a 3-stage ablation study:
 
@@ -78,7 +78,3 @@ If you want to version models or app inputs:
 ## Scripts
 
 - scripts/prepare_map_data.py: helper script(s) used during data preparation
-
-## License
-
-See LICENSE.
