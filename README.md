@@ -78,3 +78,7 @@ If you want to version models or app inputs:
 ## Scripts
 
 - scripts/prepare_map_data.py: helper script(s) used during data preparation
+
+## License
+
+See LICENSE.
